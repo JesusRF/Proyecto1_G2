@@ -26,7 +26,7 @@ public class ApplicationContextConfig {
         viewResolver.setSuffix(".jsp");
         return viewResolver;
     }
-    
+    //aaaaa
     // Método para añadir los recursos css de static
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 	    registry.addResourceHandler("/static/**").addResourceLocations("/static/");
